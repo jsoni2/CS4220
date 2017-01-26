@@ -60,7 +60,6 @@ All parties involved will receive a grade of F for the assignment.  Additionally
 ###Schedule:
 
 **Week 1 - 01/29**
-
  - Administrative Tasks <br/>
  - Installing Node.js / Setup development environment<br/>
  <br/>
@@ -69,69 +68,53 @@ All parties involved will receive a grade of F for the assignment.  Additionally
  --- Declaration, Objects, Arrays, Arrow Functions <br/>
 
 **Week 2 - 02/05**
-
  - Intermediate JavaScript <br/>
  --- Classes, JS API, Spreading, Defaults, Template Literals
 
 **Week 3 - 02/12**
-
  - Advanced JavaScript <br/>
  --- Promises, Callbacks, Event Loop and Garbage Collection
 
 **Week 4 - 02/19**
-
  - Node Fundamentals (Starting with Command Line App) <br/>
  --- Writing Interactive CMD Apps, Running Node, Node Modules
 
 **Week 5 - 02/26**
-
  - Deeper Dive into Node Modules <br/>
  --- Common Node Modules <br/>
  --- Authoring a Node Module <br/>
 
 **Week 6 - 03/05**
-
 - Angular Fundamentals <br/>
 
-
 **Week 7 - 03/12** 
-
 - Angular Intermediate <br/>
-
 
 **Week 8 - 03/19** 
 - MIDTERM
 
 **Week 9 - 03/26** 
-
 - Node HTTP Server and Angular <br/>
  --- Intro to APIs <br/>
  --- Creating Node Server, Passing Data to Frontend. <br/>
 
 **Week 10 - 04/02**
-
 - NO CLASS <br/>
 --- CSULA Spring Break
 
 **Week 11 - 04/09** 
-
 - Node and Angular Application -  Part 1 <br/>
 
 **Week 12 - 04/16** 
-
 - Node and Angular Application -  Part 2 <br/>
 
-
 **Week 13 - 04/23** 
-
 - Node Testing <br/>
 
 **Week 14 - 05/07** 
-
-- Angular Testing - Part 3 <br/>
+- Angular Testing <br/>
 
 **Week 15 - 05/14** 
-
 - FINALS
 
 
