@@ -132,7 +132,10 @@ https://atom.io/
 **Javascript**
 
 Mozilla Developer Network <br/>
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+[Introduction Into Javascript]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+
+ES6 <br />
+[JS Next] (http://chimera.labs.oreilly.com/books/1234000001623/ch01.html)
 
 
 **Node.js**
