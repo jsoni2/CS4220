@@ -136,6 +136,7 @@ Mozilla Developer Network <br/>
 
 ES6 <br />
 [JS Next] (http://chimera.labs.oreilly.com/books/1234000001623/ch01.html)
+[Understanding ES6](https://leanpub.com/understandinges6/read#leanpub-auto-introduction)
 
 
 **Node.js**
