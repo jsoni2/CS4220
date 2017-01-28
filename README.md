@@ -3,7 +3,7 @@
 ####Application Development with Node.js & Angular.js
 
 
-Fall 2017 <br/>
+Spring 2017 <br/>
 Computer Science Department <br/>
 California State University, Los Angeles
 
