@@ -37,9 +37,9 @@ http://eloquentjavascript.net/
 Homework/Exercises 25%, Project 25%, Midterm 20%, Final 30%
 
 A -- 90 - 100 <br/>
-B -- 80 - 90 <br/>
-C -- 60 - 80 <br/>
-D -- 40 - 60 <br/>
+B -- 80 - 89 <br/>
+C -- 60 - 79 <br/>
+D -- 40 - 59 <br/>
 F -- below 40 <br/>
 *CSULA grades on a plus/minus scale*
 
