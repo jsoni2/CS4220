@@ -135,8 +135,8 @@ Mozilla Developer Network <br/>
 [Introduction Into Javascript]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 
 ES6 <br />
-[JS Next] (http://chimera.labs.oreilly.com/books/1234000001623/ch01.html)
-[Understanding ES6](https://leanpub.com/understandinges6/read#leanpub-auto-introduction)
+[JS Next] (http://chimera.labs.oreilly.com/books/1234000001623/ch01.html) <br />
+[Understanding ES6] (https://leanpub.com/understandinges6/read#leanpub-auto-introduction)
 
 
 **Node.js**
