@@ -86,9 +86,11 @@ All parties involved will receive a grade of F for the assignment.  Additionally
 
 **Week 6 - 03/05**
 - Angular Fundamentals <br/>
-
+ --- Data binding, Modules, Controllers, Scopes, Views
+ 
 **Week 7 - 03/12** 
 - Angular Intermediate <br/>
+ --- Filters, Directives, Multiple Views, Routing, Services
 
 **Week 8 - 03/19** 
 - MIDTERM
