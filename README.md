@@ -69,7 +69,7 @@ All parties involved will receive a grade of F for the assignment.  Additionally
 
 **Week 2 - 02/05**
  - Intermediate JavaScript <br/>
- --- Classes, JS API, Spreading, Defaults, Template Literals
+ --- JS API, Destructuring, Defaults, Template Literals, Classes
 
 **Week 3 - 02/12**
  - Advanced JavaScript <br/>
