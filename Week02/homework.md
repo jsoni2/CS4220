@@ -34,35 +34,37 @@ Complete all the problems below.
 
 
 ##### 3. Write a Calculator Class
-The class should optionally accept a number when instantiated. Use default values were applicable.
+The class should optionally accept a number when instantiated. Use default values where applicable.
 
 The class should have the following methods:
-    - add(): adds a number to the total
-    - subtract(): subtracts a number from the total
-    - multiply(): multiplys the total by a number
-    - divide(): divides the total by a number
-    - clear(): clears the total
-    - print: prints the total
+- add(): adds a number to the total <br />
+- subtract(): subtracts a number from the total <br />
+- multiply(): multiplys the total by a number <br />
+- divide(): divides the total by a number <br />
+- clear(): clears the total <br />
+- print: prints the total
 
-    const calculator_v1 = new Calculator(2)
-    calculator_v1
-        .multiply(3)
-        .add(10)
-        .divide(2)
-        .substract(4)
-        .print // 4
-        .clear()
-        .print // 0
+```
+      const calculator_v1 = new Calculator(2)
+      calculator_v1
+            .multiply(3)
+            .add(10)
+            .divide(2)
+            .substract(4)
+            .print // 4
+            .clear()
+            .print // 0
 
-    const calculator_v2 = new Calculator()
-    calculator_v2
-        .multiply(3)
-        .add(10)
-        .divide(2)
-        .substract(4)
-        .print // 1
-        .clear()
-        .print // 0
+      const calculator_v2 = new Calculator()
+      calculator_v2
+            .multiply(3)
+            .add(10)
+            .divide(2)
+            .substract(4)
+            .print // 1
+            .clear()
+            .print // 0
+```            
 
 
 ##### 4. Write a Function that takes a 2D array and converts it to an object.  Each item in the array contains an array of only 2 items - the first item is the key and the second is the value
