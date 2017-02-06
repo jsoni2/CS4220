@@ -34,7 +34,7 @@ Complete all the problems below.
 
 
 ##### 3. Write a Calculator Class
-The class should optionally accept a number when instantiated. Use default values were applicable.
+The class should optionally accept a number when instantiated. Use default values where applicable.
 
 The class should have the following methods:
 - add(): adds a number to the total <br />
