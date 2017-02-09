@@ -1,6 +1,6 @@
 ### Week 2 Homework - Due 02/12/17 at 11:59pm
 
-Complete all the problems below.
+Complete all the problems below. 100 Points total. (20 pts each)
 
 - Output your answers to the console using this format.
 
@@ -23,7 +23,7 @@ Complete all the problems below.
 - Use proper indentation or formatting.  Incorrect formatting/indentation will lose some points.
 
 
-##### 1. Write a function that takes a string and reverses it. *Use only string or array methods.
+##### 1. Write a function that takes a string and reverses it. *Use only string or array methods. 
     reverseWord('hello') // olleh
     reverseWord('world') // dlrow
 
