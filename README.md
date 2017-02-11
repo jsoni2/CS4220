@@ -73,7 +73,7 @@ All parties involved will receive a grade of F for the assignment.  Additionally
 
 **Week 3 - 02/12**
  - Advanced JavaScript <br/>
- --- Promises, Callbacks, Event Loop, Garbage Collection
+ --- Promises, Callbacks, Event Loop, Timers
 
 **Week 4 - 02/19**
  - Node Fundamentals (Starting with Command Line App) <br/>
