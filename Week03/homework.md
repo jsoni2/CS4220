@@ -21,7 +21,7 @@ Complete all the problems below.
 -- If a letter was uppercase it should print: 'this letter was rejected: A'
 
 *DO NOT write 26 'if' or 'switch' statements.
-*Meaning NO ```if (letter === 'A' || letter === 'B' ... || letter === 'Z')```
+*Meaning NO: ```if (letter === 'A' || letter === 'B' ... || letter === 'Z')```
 
         const letters = ['A', 'b', 'c', 'D', 'e']
         sortLetters(letters)
@@ -42,7 +42,7 @@ Complete all the problems below.
 
 ##### Extra Credit. Write a function that is able to call each of the functions in Q1-Q3 and print the answers in order. Hint: You will need to use promises or callbacks in all the previous homework functions in order to achieve this. (15 pts)
 
-*Do not use setTimeout as a solution.  NO credit for setTimeout here.
+*Do not use setTimeout() or setInterval() as a solution.  NO credit for setTimeout or setInterval.
 
 
 
