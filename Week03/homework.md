@@ -40,8 +40,7 @@ Complete all the problems below.
         print('canoe') // false
 
 
-##### Extra Credit. Write a function that is able to call each of the functions in Q1-Q3 and print the answers in order. <br />
-Hint: You will need to use promises or callbacks in all the previous homework functions in order to achieve this. (15 pts)
+##### Extra Credit. Write a function that is able to call each of the functions in Q1-Q3 and print the answers in order. Hint: You will need to use promises or callbacks in all the previous homework functions in order to achieve this. (15 pts)
 
 *Do not use setTimeout() or setInterval() as a solution.  NO credit for setTimeout or setInterval.
 
