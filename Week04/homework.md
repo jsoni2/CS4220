@@ -40,17 +40,20 @@ Create a Mystery Word Game.
 - Previously guessed letters prints in blue.
 
 
-#####How the Game Is Played:
+####How the Game Is Played:
 The program random picks a word and prints a row of low dashes ( _ ), giving the number of letters in the word.
----- Example: mystery word is amazon
----- Prints:  _ _ _ _ _ _
+- Example: mystery word is amazon
+- Prints:  _ _ _ _ _ _
 
+<br />
 The guessing player now guesses a letter, asks for a hint or views previously guessed letters.
 
+<br />
 If the guessing player guesses a letter which occurs in the word, the program displays it in the correct position(s). And the player does not lose a guess.
----- Example: Player guesses a
----- Prints:  a _ a _ _ _
+- Example: Player guesses a
+- Prints:  a _ a _ _ _
 
+<br />
 If the suggested letter does not occur in the word, the player loses a guess.
-
+<br />
 The game is over when - the guessing player completes the word.  Or the guessing player has used 4 guesses.
