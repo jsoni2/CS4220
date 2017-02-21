@@ -2,40 +2,42 @@
 
 Create a Mystery Word Game.
 
-#####Guidelines
+####Guidelines
 
-[1] The app should run from the command line.
--- The app should display a help menu by typing:
-        ```node app.js -h```
--- The app should allow you to pick a difficulty:
-        ```node app.js --difficulty easy``` or  ```node app.js -d easy```
+(1) The app should run from the command line. <br />
+- The app should display a help menu by typing: <br />
+```node app.js -h```
+- The app should allow you to pick a difficulty: <br />
+```node app.js --difficulty easy``` or  ```node app.js -d easy```
 
-
+<br />
 [2] Based on the diffculty the app should pick a word at random.
-    The word should not be hard coded.
-    All words for the app to use should be contained in a separate file(s).
+- The word should NOT be hard coded.
+- All words for the app to use should be contained in a separate file(s).
 
+<br />
 [3] The app should follow the rules that are outlined in the below section on How the Game is Played.
 
-
+<br />
 [4] While playing the game the user should be able to:
-    -- Get a hint.
-    --- (Fills in a letter that is contained the least amount of times in a word and then closest to the start
-        of the word)
-    ---- For example: If the mystery word is: amazon The the hint would fill in 'm'.  If another hint is asked for then 'z'.
-    ---- For example: If the mystery word is: books The the hint would fill in 'b'.  If another hint is asked for then 'k'.
+- Get a hint. <br />
+  - (Fills in a letter that is contained the least amount of times in a word and then closest to the start of the word) <br />
+  - For example: If the mystery word is: amazon The the hint would fill in 'm'.  If another hint is asked for then 'z'. <br />
+  - For example: If the mystery word is: books The the hint would fill in 'b'.  If another hint is asked for then 'k'. <br />
 
--- View the letters guessed.
+- View the letters guessed.
 
--- View how many guess until game ends
+- View how many guess until game ends
 
+<br />
 [5] At the end of a game (win or lose) the app should prompt the user to ask if they want to play a new game.  If yes - a new game is started.  If no - exit the program.
 
-[EC] Update your console.logs to print in color.
--- Game board prints in yellow
--- Win message prints in green.
--- Lose message prints in red.
--- Previously guessed letters prints in blue.
+<br />
+[Extra Credit] Update your console.logs to print in color.
+- Game board prints in yellow
+- Win message prints in green.
+- Lose message prints in red.
+- Previously guessed letters prints in blue.
 
 
 #####How the Game Is Played:
