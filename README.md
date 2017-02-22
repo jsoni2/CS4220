@@ -69,15 +69,15 @@ All parties involved will receive a grade of F for the assignment.  Additionally
 
 **Week 2 - 02/05**
  - Intermediate JavaScript <br/>
- --- Classes, JS API, Spreading, Defaults, Template Literals
+ --- JS API, Destructuring, Defaults, Template Literals, Classes
 
 **Week 3 - 02/12**
  - Advanced JavaScript <br/>
- --- Promises, Callbacks, Event Loop and Garbage Collection
+ --- Promises, Callbacks, Event Loop, Timers
 
 **Week 4 - 02/19**
  - Node Fundamentals (Starting with Command Line App) <br/>
- --- Writing Interactive CMD Apps, Running Node, Node Modules
+ --- Running Node, Node Modules, Writing Interactive CMD Apps
 
 **Week 5 - 02/26**
  - Deeper Dive into Node Modules <br/>

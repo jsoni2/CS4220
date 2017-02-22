@@ -42,12 +42,12 @@ Complete all the problems below.
     // odds = [ 21, 99, 43, 1 ]
     // evens = [ 8, 2, 48, 82 ]
 
-##### 5. Write a function that averages all the numbers including string value numbers in an array.  (15 pts)
+##### 5. Write a function that averages all the numbers including string value numbers in an array. Using the parseInt() method is allowed. (15 pts)
     averageArray([3, 9, 'hello', 4, '95', 'abc', '1', 8, { key: 'value ' }])
     // 20
 
 
-##### 6.  Write a function that takes an array of cars and a markup percent. Return an object which contains the total markup of all cars and an array of cars with their name as the key and the value as the calculated markup.  (25 pts)
+##### 6.  Write a function that takes an array of cars and a markup percent. Return an object which contains the total markup of all cars and an array of cars with their name as the key and the value as the calculated markup.  Using the push() method is allowed. (25 pts)
 
     const cars = [
       { type: 'hybrid', wholesale: 25000 },
