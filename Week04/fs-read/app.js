@@ -11,6 +11,10 @@ module.exports.run = (flags) => {
 const characterCount = (files) => {
     // TODO
     // implement in lab
+    const splitOn = ''
+    loopFiles(files, splitOn, (err, result) => {
+        console.log(result)
+    })
 }
 
 const wordCount = (files) => {
