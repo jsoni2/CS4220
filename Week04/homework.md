@@ -8,7 +8,7 @@ Create a Mystery Word Game.
 - The app should display a help menu by typing: <br />
 ```node app.js -h```
 - The app should allow you to pick a difficulty (easy or hard): <br />
-```node app.js --difficulty easy``` or  ```node app.js -d easy```
+```node cli.js --difficulty easy``` or  ```node cli.js -d easy```
 
 <br />
 [2] Based on the diffculty the app should pick a word at random. Using the hw4._words.js file on github.
