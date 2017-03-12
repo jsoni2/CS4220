@@ -7,27 +7,29 @@ Each member of your team will present for **a maximum of 1 minute**. The team pr
 Your presentation will be graded based the following areas:
 
 #####1 - Presentation time.
--- Did you and your group members stay within the time limit?
+- Did you and your group members stay within the time limit?
 
 #####2 - Explaination of node module.
--- Did you clearly explain your node module?
--- Did you discuss what problem(s) your module solves when using it inside a Node.js application?
+- Did you clearly explain your node module?
+- Did you discuss what problem(s) your module solves when using it inside a Node.js application?
 
 #####3 - Comparison of your node module using code.
 Research and find a node module (from npm) that does the same thing or something very similar to the one your team picked.
 
 Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 lines). Walk through the code and explain the differences between your module and the one your are comparing.
 
--- Did you explain the code written?
--- Does the code explain the differences in the two node modules?
--- Does the code execute?
--- Was your explanation clear?
+- Did you explain the code written?
+- Does the code explain the differences in the two node modules?
+- Does the code execute?
+- Was your explanation clear?
 
-####Grading
 ---
+####Grading
 - **50PTS** - Stay within allotted time.
 - **25PTS** - Explain the module and it's purpose.
 - **25PTS** - Module comparison
+
+---
 
 ####Suggestions
 
@@ -59,7 +61,7 @@ Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 
 
 - ramda <br/>
 
-
+---
 #### Disallowed
 - express
 - superagent
