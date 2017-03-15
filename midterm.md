@@ -33,6 +33,15 @@ Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 
 
 ####Suggestions
 
+- mongodb <br/>
+-- Ernesto Padilla, Rafik Keshishians, Tee, Yuan
+
+- rword <br/>
+-- Phillip Gulegin, Alfredo Aleman, Stephanie Daley, Felipe Vega, Jose Aparicio
+
+- chalk/colors <br/>
+-- Ashley Vo, Mason Nguyen, Leanne David, Vincent Luu
+
 - async <br/>
 
 - q <br/>
@@ -40,8 +49,10 @@ Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 
 - fs-extra <br/>
 
 - underscore <br/>
+-- Jordan Ton, Yosep Kim, Dipesh Patel, Sevak (last name), Phuoc Nguyen (Shay)
 
 - validator <br/>
+-- Jagan, Ravikanth, Juheeshwari, Trilok, Deeksha
 
 - hapi <br/>
 
@@ -50,16 +61,22 @@ Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 
 - socket.io <br/>
 
 - csv <br/>
+-- Jessica Palacios, Erik Sorto, Ben Jair Solis, Daniel Limas
 
 - koa <br/>
 
 - traverse <br/>
 
 - moment <br/>
+-- Christophe Ung, Peter Rodriguez, Simon Lam, Kevin Ha, Mehra <br/>
+-- Sumanth Shankar, Mohammed Kuko, Kaicheng Zhou,Hieu Phan, Miguel Martinez
 
 - winston <br/>
 
 - ramda <br/>
+
+- passport <br/>
+-- Evan Chiang, Dave Bravo-Ruelas, Loc Truong, Adam Sornoso
 
 ---
 #### Disallowed
