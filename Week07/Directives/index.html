@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="myDirectiveApp">
+<div class="container" ng-controller="MyDirectiveController">
+
+
+
+<h3>Name Directive <small>In-Line Template HTML</small></h3>
+<div my-name></div>
+
+<input type="text" ng-model="address2.street">
+
+<h3>Address Directive <small>Template URL</small></h3>
+<pre>{{address2 | json}}</pre>
+<my-address foobar="address2"></my-address>
+
+<h3>One-Way Binding</h3>
+<input type="text" ng-model="someText">
+<my-bindable-directive text="{{someText}}"></my-bindable-directive>
+    
+</div>
+</body>
+</html>
