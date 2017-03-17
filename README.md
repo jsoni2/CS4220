@@ -87,36 +87,36 @@ All parties involved will receive a grade of F for the assignment.  Additionally
 **Week 6 - 03/05**
 - Angular Fundamentals <br/>
  --- Data binding, Modules, Controllers, Scopes, Views
- 
-**Week 7 - 03/12** 
+
+**Week 7 - 03/12**
 - Angular Intermediate <br/>
  --- Filters, Directives, Multiple Views, Routing, Services
 
-**Week 8 - 03/19** 
-- MIDTERM
-
-**Week 9 - 03/26** 
+**Week 8 - 03/19**
 - Node HTTP Server and Angular <br/>
  --- Intro to APIs <br/>
  --- Creating Node Server, Passing Data to Frontend. <br/>
+
+**Week 9 - 03/26**
+- MIDTERM
 
 **Week 10 - 04/02**
 - NO CLASS <br/>
 --- CSULA Spring Break
 
-**Week 11 - 04/09** 
+**Week 11 - 04/09**
 - Node and Angular Application -  Part 1 <br/>
 
-**Week 12 - 04/16** 
+**Week 12 - 04/16**
 - Node and Angular Application -  Part 2 <br/>
 
-**Week 13 - 04/23** 
+**Week 13 - 04/23**
 - Node Testing <br/>
 
-**Week 14 - 05/07** 
+**Week 14 - 05/07**
 - Angular Testing <br/>
 
-**Week 15 - 05/14** 
+**Week 15 - 05/14**
 - FINALS
 
 

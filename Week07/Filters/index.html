@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="UTF-8">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+<script src="app.js"></script>
+
+</head>
+
+<body ng-app="myFilterApp">
+<div class="container" ng-controller="MyFilterController">
+
+    <h3>Currency Filter</h3>
+    <pre>{{ 299 | currency}}</pre>
+
+    <h3>Courses</h3>
+    <ul class="list-unstyled">
+        <li ng-repeat="course in courses">
+            <span class="label label-info">{{course}}</span>
+        </li>
+    </ul>
+
+    <h3>Web Courses <small>Filtered in the controller</small></h3>
+    <ul class="list-unstyled">
+        <li ng-repeat="course in filteredCourses">
+            <span class="label label-danger">{{course}}</span>
+        </li>
+    </ul>
+
+    <h3>Filtered Courses <small>Filtered in the View</small></h3>
+    <input type="text" ng-model="courseQuery" placeholder="Enter search query"><br><br>
+    <p>
+        Listing all courses
+        <span ng-if="courseQuery">that match <code>{{courseQuery}}</code></span>
+    </p>
+    <ul class="list-unstyled">
+        <li ng-repeat="course in courses | filter:courseQuery">
+            <span class="label label-primary">{{course}}</span>
+        </li>
+    </ul>
+
+    <h3>L33t T41k <small>Custom Filter</small></h3>
+    <input type="text" ng-model="phrase" placeholder="Enter a phrase to convert"><br><br>
+    <p class="lead">{{phrase | leetTalk}}</p>
+
+</div>
+</body>
+</html>
