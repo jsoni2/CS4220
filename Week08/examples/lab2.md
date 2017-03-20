@@ -17,7 +17,7 @@ Implement the remaining portions of the Numbers Application from in-class lectur
 - fact type should be in uppercase bold
 - fact number should be surrounded by ()
 - fact should be indented with a -
-* make when there is no fact present that random text is not displaying.
+* make sure when there is no fact present that random text is not displaying. (Eg. () or -- )
 
 Example:
 MATH (4)
