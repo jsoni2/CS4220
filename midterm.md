@@ -40,7 +40,8 @@ Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 
 -- Phillip, Alfredo, Stephanie, Felipe, Jose
 
 - chalk/colors <br/>
--- Ashley, Mason, Leanne, Vincent, Brent
+-- Ashley, Mason, Leanne, Vincent, Brent <br/>
+-- Vincent, Fernando, Walter Wendy, Kevin, Frank
 
 - async <br/>
 
