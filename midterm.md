@@ -34,13 +34,14 @@ Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 
 ####Suggestions
 
 - mongodb <br/>
--- Ernesto Padilla, Rafik Keshishians, Tee, Yuan
+-- Ernesto, Rafik, Tee, Yuan
 
 - rword <br/>
--- Phillip Gulegin, Alfredo Aleman, Stephanie Daley, Felipe Vega, Jose Aparicio
+-- Phillip, Alfredo, Stephanie, Felipe, Jose
 
 - chalk/colors <br/>
--- Ashley Vo, Mason Nguyen, Leanne David, Vincent Luu
+-- Ashley, Mason, Leanne, Vincent, Brent <br/>
+-- Vincent, Fernando, Walter Wendy, Kevin, Frank
 
 - async <br/>
 
@@ -49,35 +50,42 @@ Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 
 - fs-extra <br/>
 
 - underscore <br/>
--- Jordan Ton, Yosep Kim, Dipesh Patel, Sevak (last name), Phuoc Nguyen (Shay)
+-- Jordan, Yosep, Dipesh, Sevak, Phuoc (Shay)
 
 - validator <br/>
--- Jagan, Ravikanth, Juheeshwari, Trilok, Deeksha
+-- Jagan, Ravikanth, Juheeshwari, Trilok, Deeksha <br/>
+-- Edgar, Max, Yitien
 
 - hapi <br/>
 
 - request <br/>
+-- Janak, Vishal, Sagar, Aquib, Manikandan Eswaran
 
 - socket.io <br/>
+bharghav, brij ,apurav, hitarth
 
 - csv <br/>
--- Jessica Palacios, Erik Sorto, Ben Jair Solis, Daniel Limas
+-- Jessica, Erik, Ben, Daniel
 
 - koa <br/>
+-- Andrew M, Andrew, P, Y
 
 - traverse <br/>
 
 - moment <br/>
--- Christophe Ung, Peter Rodriguez, Simon Lam, Kevin Ha, Mehra <br/>
--- Sumanth Shankar, Mohammed Kuko, Kaicheng Zhou,Hieu Phan, Miguel Martinez
+-- Christophe, Peter, Simon, Kevin, <br/>
+-- Sumanth, Mohammed, Kaicheng, Hieu, Miguel
 
 - winston <br/>
+Nivethitha, Manish, Muhammad, Nazli
 
 - ramda <br/>
 
 - passport <br/>
 -- Evan Chiang, Dave Bravo-Ruelas, Loc Truong, Adam Sornoso
 
+- mocha <br/>
+Prashant, Rakesh, Sanket, Vikalp
 ---
 #### Disallowed
 - express
