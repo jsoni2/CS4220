@@ -52,7 +52,7 @@ Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 
 -- Jordan, Yosep, Dipesh, Sevak, Phuoc (Shay)
 
 - validator <br/>
--- Jagan, Ravikanth, Juheeshwari, Trilok, Deeksha
+-- Jagan, Ravikanth, Juheeshwari, Trilok, Deeksha <br/>
 -- Edgar, Max, Yitien
 
 - hapi <br/>
