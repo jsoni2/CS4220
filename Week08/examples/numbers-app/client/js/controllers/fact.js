@@ -29,34 +29,40 @@ angular
     })
   }
   $scope.getDateFact = () => {
-    let fullDate=$scope.number.split('/')
-    if (fullDate[2]) {
-      FactService.get({
-        type: 'year',
-        number: fullDate[2],
-      }, (response) => {
-        if (response.found) {
-          $scope.fact = response
-          $scope.fact.number=$scope.number
-        }
-        else {
-          $scope.fact = ''
-        }
-      })
+    if (typeof $scope.number==='undefined') {
+      return
     }
     else {
-      FactService.get({
-        type: 'date',
-        number: $scope.number,
-      }, (response) => {
-        if (response.found) {
-          $scope.fact = response
-          $scope.fact.number=$scope.number
-        }
-        else {
-          $scope.fact = ''
-        }
-      })
+      let fullDate=$scope.number.split('/')
+      if (fullDate[2]) {
+        FactService.get({
+          type: 'year',
+          number: fullDate[2],
+        }, (response) => {
+          if (response.found) {
+            $scope.fact = response
+            $scope.fact.number=$scope.number
+            $scope.fact.type='date'
+          }
+          else {
+            $scope.fact = ''
+          }
+        })
+      }
+      else {
+        FactService.get({
+          type: 'date',
+          number: $scope.number,
+        }, (response) => {
+          if (response.found) {
+            $scope.fact = response
+            $scope.fact.number=$scope.number
+          }
+          else {
+            $scope.fact = ''
+          }
+        })
+      }
     }
   }
   $scope.getRandomFact = () => {
