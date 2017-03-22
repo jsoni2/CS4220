@@ -8,7 +8,7 @@ angular
       number: $scope.number,
     }, (response) => {
       if (response.found) {
-        $scope.fact = response
+        $scope.fact = response.type.toUpperCase()+'('+$scope.number+')\n - '+response.text+'\n'
       }
       else {
         $scope.fact = ''
@@ -21,7 +21,7 @@ angular
       number: $scope.number,
     }, (response) => {
       if (response.found) {
-        $scope.fact = response
+        $scope.fact = response.type.toUpperCase()+'('+$scope.number+')\n - '+response.text+'\n'
       }
       else {
         $scope.fact = ''
@@ -35,14 +35,21 @@ angular
     else {
       let fullDate=$scope.number.split('/')
       if (fullDate[2]) {
+        // let ddmm=new Date(fullDate[0]+' '+fullDate[1])
+        // ddmm=ddmm.toString().split(' ')
+        // console.log(ddmm);
+        // console.log(ddmm.toString().split(' '));
+        // let dm = ddmm[1]+' '+ddmm[2]
+        // console.log(dm);
         FactService.get({
           type: 'year',
           number: fullDate[2],
+          // date: dm
         }, (response) => {
-          if (response.found) {
-            $scope.fact = response
-            $scope.fact.number=$scope.number
-            $scope.fact.type='date'
+          if (response.found && response.date) {
+            // console.log(response.date.toString())
+            // let haveDate=response.date.toString()
+            $scope.fact = 'DATE'+'('+$scope.number+')\n - '+response.text+'\n'
           }
           else {
             $scope.fact = ''
@@ -55,8 +62,7 @@ angular
           number: $scope.number,
         }, (response) => {
           if (response.found) {
-            $scope.fact = response
-            $scope.fact.number=$scope.number
+            $scope.fact = response.type.toUpperCase()+'('+$scope.number+')\n - '+response.text+'\n'
           }
           else {
             $scope.fact = ''
@@ -74,7 +80,7 @@ angular
         type: randomType,
         number: randomNumber,
       }, (response) => {
-        $scope.fact = response
+        $scope.fact = response.type.toUpperCase()+'('+randomNumber+')\n - '+response.text+'\n'
       })
     }
     else {
@@ -86,8 +92,7 @@ angular
         number: randomDate,
         //random: true
       }, (response) => {
-        $scope.fact = response
-        $scope.fact.number=randomDate
+        $scope.fact = response.type.toUpperCase()+'('+randomDate+')\n - '+response.text+'\n'
       })
     }
   }
