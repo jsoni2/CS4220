@@ -1,0 +1,54 @@
+<h1>
+    {{pageTitle}}
+</h1>
+
+<!-- Let's display how many todos are remaining by using a function to calculate the total -->
+<p>
+    {{remainingTodos()}} of {{todos.length}} remaining.
+    
+    <!-- 
+        Let's allow our User to archive all todos that are "done".  
+        That is to say, let's remove them from view
+    -->    
+    <a href="" ng-click="archiveTodos()">Archive</a>    
+</p>
+
+<!-- If there are no Todos, simply display a message stating so. -->
+<p ng-if="todos.length == 0">
+    <em>You have nothing to do.</em>
+</p>
+
+<!-- Display all Todos in our array of todo objects -->
+<ul ng-if="todos.length > 0">
+    <!-- We want each todo to be displayed in it's own list item tag. -->
+    <li ng-repeat="todo in todos">
+
+        <!-- Let's display a checkbox with our todo -->
+        <input type="checkbox" ng-model="todo.done">
+
+        <!-- 
+            Let's display our todo text with a strikethrough if it's done 
+            We accomplish this by applying a css class to the span element.
+            If the todo is "done", then the class that will be applied is 
+            "done-true".  Otherwise, the class name that will be applied is 
+            "done-false". 
+
+            We then create a style for the .done-true class to change the color
+            of the done todo, and display it with a strikethrough
+        -->
+       <span class="done-{{todo.done}}">
+            {{todo.text}}
+       </span> 
+    </li>
+</ul>
+
+<!-- 
+    Note that when the form is submitted, the addTodo function in our
+    controller is executed.
+-->
+<form ng-submit="addTodo()">
+    <input ng-model="todoText" type="text" placeholder="Enter a todo">
+    <br>
+    <input type="submit" value="Add Todo">
+</form>
+

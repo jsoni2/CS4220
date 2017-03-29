@@ -46,6 +46,7 @@ Give a code example of your module (5 - 10 lines) and of the competitor (5 - 10 
 - async <br/>
 
 - q <br/>
+-- Evan, Dave, Loc, Adam
 
 - fs-extra <br/>
 
@@ -82,7 +83,6 @@ Nivethitha, Manish, Muhammad, Nazli
 - ramda <br/>
 
 - passport <br/>
--- Evan Chiang, Dave Bravo-Ruelas, Loc Truong, Adam Sornoso
 
 - mocha <br/>
 Prashant, Rakesh, Sanket, Vikalp
