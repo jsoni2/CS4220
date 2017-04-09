@@ -1,0 +1,51 @@
+<div class="search-header">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+
+            <form>
+               <h2 class="v-center">search</h2>
+               <p class="lead">/// tv show</p>
+
+               <div class="input-group">
+                  <input type="text" ng-model="showname" class="form-control input-md"/>
+                  <span class="input-group-btn">
+                     <button
+                        type="button"
+                        class="btn btn-md btn-warning pull-right"
+                        ng-click="searchShow()">Search</button>
+                  </span>
+               </div>
+            </form>
+
+            <div ng-if="results" class="results-block">
+               <div ng-repeat="result in results">
+
+                  <div class="row">
+                     <div class="show-name col-md-8"></div>
+                  </div>
+
+                  <div class="row">
+                     <div class="col-md-3">
+                        <img ng-src=""/>
+                     </div>
+
+                     <div class="col-md-8">
+                        <div></div>
+
+                        <div>
+                           <button>Details</button>
+                        </div>
+                     </div>
+                  </div>
+
+                  <hr>
+
+               </div>
+            </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
