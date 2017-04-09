@@ -1,6 +1,6 @@
-##CS 4220
-####Current Trends in Web Design and Development
-####Application Development with Node.js & Angular.js
+## CS 4220
+#### Current Trends in Web Design and Development
+#### Application Development with Node.js & Angular.js
 
 
 Spring 2017 <br/>
@@ -57,7 +57,7 @@ All parties involved will receive a grade of F for the assignment.  Additionally
 
 <hr/>
 
-###Schedule:
+### Schedule:
 
 **Week 1 - 01/29**
  - Administrative Tasks <br/>
