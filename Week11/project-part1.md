@@ -18,7 +18,7 @@ Your search results should include:
 *When genres are availabe display them seperated by a '|' (ex Pop | Dance | Rock)
 
 ## Details
-Each search result should have a details button. Upon clicking that button, your application should get album details for the artist selected. Your results should not contain duplicates. Make sure you are using and understanding the Spotify API to ensure there are only albums and not duplicate albums.
+Each search result should have a details button. Upon clicking that button, your application should get album details for the artist selected. Your results should not contain duplicates. Make sure you are using and understanding the Spotify API to ensure there are only albums and not duplicate albums. *Your application should NOT navigate to a new page/new url*
 
 Your details display should include:
     - Artist Name (only once)
@@ -31,4 +31,4 @@ Make sure that as you are handling search results and details that you are corre
 
 ##  Extra Credit
 - Create a custom directive to render the Details portion. (+ 10)
-(ex - <div custom-directive-to-render-details></div>)
+(ex - `<div custom-directive-to-render-details></div>`)
