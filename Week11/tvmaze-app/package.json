@@ -9,6 +9,7 @@
   },
   "author": "Cydney",
   "dependencies": {
-
+    "express": "^4.15.2",
+    "superagent": "^3.5.2"
   }
 }
