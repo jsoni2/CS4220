@@ -7,7 +7,7 @@ const
 module.exports = () => {
 
     router.get('/api/search', (req, res) => {
-        const { show } = req.query
+        const { show } = req.query // this is the same as const show = req.query.show
 
         superagent
             .get('http://api.tvmaze.com/search/shows?q=' + show)
