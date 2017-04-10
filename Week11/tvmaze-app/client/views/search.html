@@ -22,19 +22,21 @@
                <div ng-repeat="result in results">
 
                   <div class="row">
-                     <div class="show-name col-md-8"></div>
+                     <div class="show-name col-md-8"> {{result.show.name }}</div>
                   </div>
 
                   <div class="row">
                      <div class="col-md-3">
-                        <img ng-src=""/>
+                        <img ng-src="{{result.show.image.medium}}"/>
                      </div>
 
                      <div class="col-md-8">
-                        <div></div>
+                        <div>
+                           <div ng-bind-html="result.show.summary | trustHTML"></div>
+                        </div>
 
                         <div>
-                           <button>Details</button>
+                           <button ng-click="showDetails(result.show.id)">Details</button>
                         </div>
                      </div>
                   </div>
@@ -43,7 +45,6 @@
 
                </div>
             </div>
-
 
       </div>
     </div>

@@ -1,5 +1,10 @@
 angular
   .module('app', ['ngRoute', 'ngResource', 'SearchCtrl', 'SearchSrvc'])
+  .filter('trustHTML', function ($sce) {
+      return (text) => {
+        return $sce.trustAsHtml(text)
+      }
+  })
   .config(['$locationProvider', function($locationProvider) {
     $locationProvider.hashPrefix('')
   }])
