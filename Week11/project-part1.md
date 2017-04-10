@@ -11,19 +11,19 @@ https://developer.spotify.com/web-api/endpoint-reference/
 ## Searching
 Display a search box. Upon entering a search query, your application should query the Spotify API.
 
-Your search results should include:
-    - Artist Name
-    - Artist Image (if no image is availble use a placeholder image)
-    - Genres ( if available )
+Your search results should include: <br/>
+    - Artist Name <br/>
+    - Artist Image (if no image is availble use a placeholder image) <br/>
+    - Genres ( if available ) <br/>
 *When genres are availabe display them seperated by a '|' (ex Pop | Dance | Rock)
 
 ## Details
 Each search result should have a details button. Upon clicking that button, your application should get album details for the artist selected. Your results should not contain duplicates. Make sure you are using and understanding the Spotify API to ensure there are only albums and not duplicate albums. *Your application should NOT navigate to a new page/new url*
 
-Your details display should include:
-    - Artist Name (only once)
-    - Artist Image (only once - if no image is availble use a placeholder image)
-    - Album Name
+Your details display should include: <br/>
+    - Artist Name (only once) <br/>
+    - Artist Image (only once - if no image is availble use a placeholder image) <br/>
+    - Album Name <br/>
     - Album Image ( if no image is availble use a placeholder image)
 
 ## Additional Notes
