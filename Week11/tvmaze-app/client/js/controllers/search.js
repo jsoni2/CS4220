@@ -1,12 +1,13 @@
 angular
-    .module('SearchCtrl', [])
-    .controller('SearchController', function($scope, SearchService) {
+    .module('TVMazeCtrl', [])
+    .controller('TVMazeController', function($scope, TVMazeService) {
 
         $scope.searchShow = () => {
-            SearchService.search.query({
+            TVMazeService.search.query({
                 show: $scope.showname
             }, (response) => {
                 $scope.results = response
             })
         }
+
     })
