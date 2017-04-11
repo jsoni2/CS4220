@@ -18,7 +18,7 @@ Your search results should include: <br/>
 *When genres are availabe display them seperated by a '|' (ex Pop | Dance | Rock)
 
 ## Details
-Each search result should have a details button. Upon clicking that button, your application should get album details for the artist selected. Your results should not contain duplicates. Make sure you are using and understanding the Spotify API to ensure there are only albums and not duplicate albums. *Your application should NOT navigate to a new page/new url*
+Each search result should have a details button. Upon clicking that button, your application should get album details for the artist selected. Your results should not contain duplicates. Make sure you are using and understanding the Spotify API to ensure there are only albums and not duplicate albums. *Your application should NOT navigate to a new page/new url - everything should load on the main localhost page.*  
 
 Your details display should include: <br/>
     - Artist Name (only once) <br/>
