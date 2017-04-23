@@ -113,11 +113,14 @@ All parties involved will receive a grade of F for the assignment.  Additionally
 **Week 13 - 04/23**
 - Node Testing <br/>
 
-**Week 14 - 05/07**
+**Week 14 - 04/30**
 - Angular Testing <br/>
 
-**Week 15 - 05/14**
-- FINALS
+**Week 15 - 05/07**
+- FINALS 
+
+**Week 16 - 05/14**
+- FINALS 
 
 
 <hr/>
