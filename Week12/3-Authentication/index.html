@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fbApp">
+
+<head>
+    <title>Authentication in Firebase</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/1.0.1/angular-moment.min.js"></script>
+
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+</head>
+
+<body ng-controller="AuthController">
+    <div class="container">
+        <div class="page-header">
+            <h1>Authentication</h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <h3>Login</h3>
+                <button ng-click="login()" class="btn btn-success">Login</button>
+                
+                <h3>Logout</h3>
+                <button ng-click="logout()" class="btn btn-danger">Logout</button>
+            </div>
+            <div class="col-xs-6">
+                <p ng-if="!currentUser">You are not logged in.</p>
+                <p ng-if="error">{{error}}</p>
+                <div ng-if="currentUser">
+                    <h3>Current User</h3>
+
+                    <div class="thumbnail text-center">
+                        <img ng-src="{{currentUser.user.photoURL}}">
+                        <div class="caption">
+                            <h3>{{currentUser.user.displayName}}</h3>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
