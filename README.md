@@ -109,15 +109,19 @@ All parties involved will receive a grade of F for the assignment.  Additionally
 
 **Week 12 - 04/16**
 - Node and Angular Application -  Part 2 <br/>
+- Intro to Firebase <br/>
 
 **Week 13 - 04/23**
-- Node Testing <br/>
+- Firebase Part 2 <br/>
 
-**Week 14 - 05/07**
-- Angular Testing <br/>
+**Week 14 - 04/30**
+- FINAL PREP <br/>
 
-**Week 15 - 05/14**
-- FINALS
+**Week 15 - 05/07**
+- FINALS 
+
+**Week 16 - 05/14**
+- FINALS 
 
 
 <hr/>
